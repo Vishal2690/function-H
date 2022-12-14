@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #dm{
+        width: 300px;
+        height: 40px;
+        background-color: red;
+        color: aliceblue;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <center>
+        <h1 id="dm">Function</h1>
+    </center>
+    <h1>Create one function with zero parameter having a console statement;</h1>
+    <pre>
+        Ans :-  const makeFunc = function(){
+           return "Zero parameter";
+        }
+       console.log(makeFunc());
+    </pre>
+    <hr>
+    <h1>Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"</h1>
+    <pre>
+        Ans:-    let a=3;
+                 let b=4;
+        const mySum = function(){
+                  return a+b;
+                }
+        console.log(mySum());
+    </pre>
+    <hr>
+    <h1>Create one arrow function</h1>
+    <pre>
+        Ans:-   const myfunction = (a, b) => {
+            return a + b;
+          };
+        
+    </pre>
+    <hr>
+    <pre>
+        "Print output: 
+    var x = 21;
+    var girl = function () {
+    console.log(x);
+    var x = 20;
+    };
+    girl ();"
+    </pre>
+    <h2>output :-  <u>undefined</u></h2>
+    <hr>
+    <pre>
+        "Print output: 
+var x = 21;
+girl ();
+console.log(x)
+function girl() {
+    console.log(x);
+    var x = 20;
+};
+"
+    </pre>
+    <h2>output :-  <u>undefined , 21</u></h2>
+    <hr>
+    <pre>
+        "Print output
+
+var x = 21;
+a();
+b();
+
+  function a() {
+    
+   x = 20;
+  console.log(x);
+};
+ function b() {
+    
+    x = 40;
+   console.log(x);
+};"
+    </pre>
+    <h2>output :-  <u>20 , 40</u></h2>
+
+    <hr>
+    <h1>Write a function that accepts parameter n and returns factorial of n</h1>
+    <pre>
+        Ans :-  let n = 6;
+        function Factorial(n) {
+                   let a=1;
+                   for (let i = 2; i <= n; i++)
+                       a = a * i;
+                   return a;
+               }
+       console.log(Factorial());
+       
+       
+    </pre>
+
+
+    
+</body>
+
+</html>
